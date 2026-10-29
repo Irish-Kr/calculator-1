@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>Bank App</title>
+    </head>
+    <body>
+
+        <div id="app">
+
+            <h1 id="app-title">Irish's bank</h1>
+            <p id="account-number">Account: <span class="masked">••••</span> 9310</p>
+
+            <div id="balance-box">
+                <p id="balance-label">Available balance</p>
+                <p id="balance">1000</p>
+            </div>
+
+            <div id="entry-box">
+                <label id="amount-label" for="amount">Enter amount</label>
+                <input type="number" id="amount" placeholder="0">
+            </div>
+
+            <div id="button-box">
+                <button class="action credit" id="credit-btn">Credit</button>
+                <button class="action debit" id="debit-btn">Debit</button>
+            </div>
+
+            <p id="message"></p>
+            <p id="last-updated">Last Updated: Oct 29, 2026 at 10:00AM.</p>
+            <p id="note">Terms and conditions apply.</p>
+
+        </div>
+    </body>
+</html>

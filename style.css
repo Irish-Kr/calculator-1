@@ -1,0 +1,92 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FEFDB2;
+}
+
+#app-title {
+    text-transform: uppercase;
+    font-size: 22px;
+    color: #FFAC8F;
+    text-align: center;
+}
+
+#balance-label, #amount-label {
+    text-decoration: underline;
+    font-size: 15px;
+    margin-bottom: 20px;
+    color: #522196;
+}
+
+#balance {
+    font-size: 30px;
+    font-weight: 800;
+    margin-top: 4px;
+    color: #9BB7E8;
+}
+
+#amount {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+
+#app {
+    background: white;
+    width: 400px;
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2) transparent;
+    margin: 40px auto;
+}
+
+.action {
+    padding: 10px 22px;
+    margin: 6px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+#button-box {
+    display: flex;
+    text-align: center;
+    margin-top: 15px;
+}
+
+#account-number {
+    font-size: 13px;
+    color: #777777;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+#last-updated {
+    font-size: 11px;
+    color: #aaaaaa;
+    text-align: center;
+    margin-top: 14px;
+}
+.credit {
+    background-color: #89D385;
+}
+
+.debit {
+    background-color: #FF6B6B;
+}
+
+#note {
+    text-decoration: line-through;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 18px;
+    color: grey;
+}
